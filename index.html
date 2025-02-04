@@ -2,22 +2,26 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intro Js</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contador</title>
 </head>
 <body>
-    <div> 
-        <input id="nome" type="text">
-    </div>
+    <button>
+        <a href="../index.html">Ir para index</a>
+    </button>
+    <button>
+        <a href="./pages/math.html">Ir para Math pages</a>
+    </button>
 
     <div>
-        <button onclick="exibirNome()" id="btn">Clique Aqui</button>
+        <button id="btn" onclick="aumentar()">AUMENTAR</button>
+        <p id="counter">0</p>
+        <button id="btn" onclick="sub()">SUBTRAIR</button>
+        <button id="btn" onclick="reset()">RESETAR</button>
     </div>
 
-    <div>
-        <p id="msg"></p>
-    </div>
 
-    <script src="./assets/script/math.script.js"></script>
+
+    <script src="../assets/scripts/contador.scripts.js"></script>
 </body>
 </html>
